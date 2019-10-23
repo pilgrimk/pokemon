@@ -45,6 +45,7 @@ app.get('/', function (req, res) {
         <img src="${pokemon.sprites.front_default}">
             <ul>Stats
                 <li>Name: ${properName(pokemon.name)}</li>
+                <li>ID: ${pokemon.id}</li>
                 <li>Height: ${pokemon.height}</li>
                 <li>Weigt: ${pokemon.weight}</li>
             </ul>
